@@ -1,0 +1,5 @@
+component area left top width height centroid X centroid Y 
+1 382 246 102 26 21 257 111
+2 23 326 226 6 5 328 228
+3 26 507 377 6 6 509 379
+4 5 516 378 2 3 516 379
