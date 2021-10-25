@@ -1,2 +1,0 @@
-component area left top width height centroid X centroid Y 
-1 40 361 219 9 8 364 222
