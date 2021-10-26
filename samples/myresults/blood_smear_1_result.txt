@@ -1,7 +1,7 @@
 METHOD              	  CELLS	INTERNAL	EXTERNAL	TIME  
-OTSU                	     76	       1	       5	0.50s 
-OTSU Without Blur   	     68	       6	       6	0.76s 
-HSV                 	     70	       9	       3	16.99s
-HSV Without Erode   	     69	       8	       4	2.09s 
-Watershed           	     74	       1	       4	0.71s 
+OTSU                	     76	       1	       3	0.94s 
+OTSU Without Blur   	     68	       6	       6	0.85s 
+HSV                 	     70	       9	       3	17.41s
+HSV Without Erode   	     69	       8	       4	2.11s 
+Watershed           	     74	       1	       4	0.83s 
 HoughCircles        	     82	       4	       1	0.12s 
