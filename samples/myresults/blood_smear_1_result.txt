@@ -4,4 +4,4 @@ OTSU w/out blur     	     68	       1	       3	1.53s 	./samples/segmented/blood_
 HSV                 	     60	       1	       3	17.08s	./samples/segmented/blood_smear_1_hsv.png
 HSV w/out erode     	     68	       1	       3	3.01s 	./samples/segmented/blood_smear_1_hsv_out_erode.png
 Watershed           	     57	       1	       9	2.98s 	./samples/segmented/blood_smear_1_watershed.png
-HoughCircles        	     76	       1	       3	1.05s 	./samples/segmented/blood_smear_1_hough.png
+HoughCircles        	     72	       3	       1	1.07s 	./samples/segmented/blood_smear_1_hough.png
