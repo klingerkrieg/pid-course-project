@@ -1,0 +1,7 @@
+METHOD              	  CELLS	INTERNAL	EXTERNAL	TIME  	FILE_NAME
+OTSU                	     70	      13	      12	4.00s 	./samples/segmented/blood_smear_12_otsu.png
+OTSU w/out blur     	     68	       4	      38	10.94s	./samples/segmented/blood_smear_12_otsu_out_blur.png
+HSV                 	     31	       1	       2	13.47s	./samples/segmented/blood_smear_12_hsv.png
+HSV w/out erode     	     69	       2	       1	2.63s 	./samples/segmented/blood_smear_12_hsv_out_erode.png
+Watershed           	     73	       1	       8	4.33s 	./samples/segmented/blood_smear_12_watershed.png
+HoughCircles        	     94	      29	      15	10.40s	./samples/segmented/blood_smear_12_hough.png
