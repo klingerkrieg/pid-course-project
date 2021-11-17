@@ -1,9 +1,10 @@
 METHOD              	  CELLS	INTERNAL	EXTERNAL	TIME  	FILE_NAME
-OTSU                	     87	       0	       4	2.60s 	./samples/segmented/blood_smear_4_otsu.png
-OTSU w/out blur     	     82	       0	       4	3.07s 	./samples/segmented/blood_smear_4_otsu_out_blur.png
-HSV                 	     55	       0	       3	21.09s	./samples/segmented/blood_smear_4_hsv.png
+OTSU                	     87	       1	       2	1.45s 	./samples/segmented/blood_smear_4_otsu.png
+OTSU w/out blur     	     82	       0	       3	1.72s 	./samples/segmented/blood_smear_4_otsu_out_blur.png
+HSV                 	     60	       2	       2	19.31s	./samples/segmented/blood_smear_4_hsv.png
 HSV w/out erode     	     74	       2	       1	2.99s 	./samples/segmented/blood_smear_4_hsv_out_erode.png
-Watershed           	     88	       0	       4	2.93s 	./samples/segmented/blood_smear_4_watershed.png
-HoughCircles        	     77	       3	       1	1.68s 	./samples/segmented/blood_smear_4_hough.png
-OTSU Hough break    	     87	       1	       3	2.88s 	./samples/segmented/blood_smear_4_otsu_hough_break.png
-Union               	     88	       3	       1	2.22s 	./samples/segmented/blood_smear_4_union.png
+Watershed           	     89	       0	       3	1.70s 	./samples/segmented/blood_smear_4_watershed.png
+HoughCircles        	     76	       2	       1	0.62s 	./samples/segmented/blood_smear_4_hough.png
+OTSU Hough break    	     87	       1	       2	1.67s 	./samples/segmented/blood_smear_4_otsu_hough_break.png
+Union               	     87	       2	       1	1.16s 	./samples/segmented/blood_smear_4_union.png
+HSV convex hull     	     71	       3	       1	3.41s 	./samples/segmented/blood_smear_4_hsv_hull.png
