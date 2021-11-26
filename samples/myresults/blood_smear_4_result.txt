@@ -5,6 +5,6 @@ HSV                 	     60	       2	       2	19.31s	./samples/segmented/blood_
 HSV w/out erode     	     74	       2	       1	2.99s 	./samples/segmented/blood_smear_4_hsv_out_erode.png
 Watershed           	     89	       0	       3	1.70s 	./samples/segmented/blood_smear_4_watershed.png
 HoughCircles        	     76	       2	       1	0.62s 	./samples/segmented/blood_smear_4_hough.png
-OTSU Hough break    	     87	       1	       2	1.67s 	./samples/segmented/blood_smear_4_otsu_hough_break.png
+OTSU Hough break    	     21	       0	       1	0.66s 	./samples/segmented/blood_smear_4_otsu_hough_break.png
 Union               	     87	       2	       1	1.16s 	./samples/segmented/blood_smear_4_union.png
 HSV convex hull     	     71	       3	       1	3.41s 	./samples/segmented/blood_smear_4_hsv_hull.png
