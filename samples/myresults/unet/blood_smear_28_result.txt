@@ -1,0 +1,10 @@
+METHOD              	  CELLS	INTERNAL	EXTERNAL	TIME  	FILE_NAME
+OTSU                	     45	       0	       0	0.42s 	./samples/segmented/unet/blood_smear_28_otsu.png
+OTSU w/out blur     	     42	       0	       0	0.45s 	./samples/segmented/unet/blood_smear_28_otsu_out_blur.png
+HSV                 	     38	       0	       0	0.53s 	./samples/segmented/unet/blood_smear_28_hsv.png
+HSV convex hull     	     37	       0	       0	1.81s 	./samples/segmented/unet/blood_smear_28_hsv_hull.png
+Watershed           	     59	       0	       0	0.52s 	./samples/segmented/unet/blood_smear_28_waterhshed.png
+Hough Circles       	     34	       0	       0	0.16s 	./samples/segmented/unet/blood_smear_28_hough.png
+OTSU + Hough v2     	     94	       0	       0	0.60s 	./samples/segmented/unet/blood_smear_28_otsu_hough_v2.png
+OTSU + Hough v1     	     56	       0	       0	0.46s 	./samples/segmented/unet/blood_smear_28_otsu_hough_v1.png
+U-net               	     51	       0	       0	0.44s 	./samples/segmented/unet/blood_smear_28_unet.png

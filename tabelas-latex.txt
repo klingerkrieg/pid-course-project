@@ -1,0 +1,59 @@
+
+\begin{table}[]
+\begin{tabular}{l|ccl|}
+\cline{2-4}
+                                            & \multicolumn{3}{c|}{\textbf{U-Net validation}}                                             \\ \hline
+\multicolumn{1}{|c|}{\textbf{Method}} & \multicolumn{1}{c|}{\textbf{Accuracy}} & \multicolumn{1}{c|}{\textbf{Precision}} & \multicolumn{1}{c|}{\textbf{Recall}} \\ \hline
+\multicolumn{1}{|l|}{Watershed}             & \multicolumn{1}{c|}{\textbf{0.820}} & \multicolumn{1}{c|}{0.941}          & 0.863          \\ \hline
+\multicolumn{1}{|l|}{OTSU + Hough method 1} & \multicolumn{1}{c|}{0.819}          & \multicolumn{1}{c|}{0.928}          & 0.872          \\ \hline
+\multicolumn{1}{|l|}{OTSU + Hough method 2} & \multicolumn{1}{c|}{0.787}          & \multicolumn{1}{c|}{0.873}          & \textbf{0.887} \\ \hline
+\multicolumn{1}{|l|}{Hough Transform}       & \multicolumn{1}{c|}{0.764}          & \multicolumn{1}{c|}{0.944}          & 0.794          \\ \hline
+\multicolumn{1}{|l|}{U-Net}                 & \multicolumn{1}{c|}{0.763}          & \multicolumn{1}{c|}{0.940}          & 0.800          \\ \hline
+\multicolumn{1}{|l|}{OTSU without blur}     & \multicolumn{1}{c|}{0.677}          & \multicolumn{1}{c|}{0.937}          & 0.711          \\ \hline
+\multicolumn{1}{|l|}{OTSU}                  & \multicolumn{1}{c|}{0.675}          & \multicolumn{1}{c|}{0.939}          & 0.709          \\ \hline
+\multicolumn{1}{|l|}{HSV + Median Filter}   & \multicolumn{1}{c|}{0.621}          & \multicolumn{1}{c|}{\textbf{0.949}} & 0.643          \\ \hline
+\multicolumn{1}{|l|}{HSV + Convex Hull}     & \multicolumn{1}{c|}{0.575}          & \multicolumn{1}{c|}{0.930}          & 0.602          \\ \hline
+                                      & \multicolumn{1}{c|}{\textbf{Accuracy}} & \multicolumn{1}{c|}{\textbf{Precision}} & \multicolumn{1}{c|}{\textbf{Recall}} \\ \hline
+\multicolumn{1}{|l|}{Previous work}         & \multicolumn{1}{c|}{0.770}          & \multicolumn{1}{l|}{0.868}          & 0.863          \\ \hline
+\end{tabular}
+\end{table}
+
+
+\begin{table}[]
+\caption{Métricas obtidas com a validação}
+\begin{tabular}{l|cll|}
+\cline{2-4}
+                                            & \multicolumn{3}{c|}{\textbf{HSV Validation}}                                               \\ \hline
+\multicolumn{1}{|c|}{\textbf{Method}} & \multicolumn{1}{c|}{\textbf{Accuracy}} & \multicolumn{1}{c|}{\textbf{Precision}} & \multicolumn{1}{c|}{\textbf{Recall}} \\ \hline
+\multicolumn{1}{|l|}{Watershed}             & \multicolumn{1}{c|}{\textbf{0.804}} & \multicolumn{1}{l|}{0.937}          & 0.849          \\ \hline
+\multicolumn{1}{|l|}{OTSU + Hough method 1} & \multicolumn{1}{c|}{0.801}          & \multicolumn{1}{l|}{0.930}          & 0.851          \\ \hline
+\multicolumn{1}{|l|}{OTSU + Hough method 2} & \multicolumn{1}{c|}{0.774}          & \multicolumn{1}{l|}{0.878}          & \textbf{0.865} \\ \hline
+\multicolumn{1}{|l|}{Hough Transform}       & \multicolumn{1}{c|}{0.747}          & \multicolumn{1}{l|}{0.948}          & 0.774          \\ \hline
+\multicolumn{1}{|l|}{U-Net}                 & \multicolumn{1}{c|}{0.749}          & \multicolumn{1}{l|}{0.944}          & 0.782          \\ \hline
+\multicolumn{1}{|l|}{OTSU without blur}     & \multicolumn{1}{c|}{0.665}          & \multicolumn{1}{l|}{0.938}          & 0.698          \\ \hline
+\multicolumn{1}{|l|}{OTSU}                  & \multicolumn{1}{c|}{0.666}          & \multicolumn{1}{l|}{0.939}          & 0.699          \\ \hline
+\multicolumn{1}{|l|}{HSV + Median Filter}   & \multicolumn{1}{c|}{0.620}          & \multicolumn{1}{l|}{\textbf{0.949}} & 0.642          \\ \hline
+\multicolumn{1}{|l|}{HSV + Convex Hull}     & \multicolumn{1}{c|}{0.573}          & \multicolumn{1}{l|}{0.927}          & 0.602          \\ \hline
+                                      & \multicolumn{1}{c|}{\textbf{Accuracy}} & \multicolumn{1}{c|}{\textbf{Precision}} & \multicolumn{1}{c|}{\textbf{Recall}} \\ \hline
+\multicolumn{1}{|l|}{Previous work}         & \multicolumn{1}{c|}{0.770}          & \multicolumn{1}{l|}{0.868}          & 0.863          \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[]
+\begin{tabular}{l|cll|}
+\cline{2-4}
+                                            & \multicolumn{3}{c|}{\textbf{Without validation}}                                                                        \\ \hline
+\multicolumn{1}{|c|}{\textbf{Method}}       & \multicolumn{1}{c|}{\textbf{Accuracy}} & \multicolumn{1}{c|}{\textbf{Precision}} & \multicolumn{1}{c|}{\textbf{Recall}} \\ \hline
+\multicolumn{1}{|l|}{Watershed}             & \multicolumn{1}{c|}{0.809}             & \multicolumn{1}{l|}{0.930}              & 0.863                                \\ \hline
+\multicolumn{1}{|l|}{OTSU + Hough method 1} & \multicolumn{1}{c|}{0.808}             & \multicolumn{1}{l|}{0.915}              & 0.873                                \\ \hline
+\multicolumn{1}{|l|}{OTSU + Hough method 2} & \multicolumn{1}{c|}{0.759}             & \multicolumn{1}{l|}{0.836}              & 0.888                                \\ \hline
+\multicolumn{1}{|l|}{Hough Transform}       & \multicolumn{1}{c|}{0.758}             & \multicolumn{1}{l|}{0.936}              & 0.794                                \\ \hline
+\multicolumn{1}{|l|}{U-Net}                 & \multicolumn{1}{c|}{0.763}             & \multicolumn{1}{l|}{0.940}              & 0.800                                \\ \hline
+\multicolumn{1}{|l|}{OTSU without blur}     & \multicolumn{1}{c|}{0.670}             & \multicolumn{1}{l|}{0.928}              & 0.711                                \\ \hline
+\multicolumn{1}{|l|}{OTSU}                  & \multicolumn{1}{c|}{0.664}             & \multicolumn{1}{l|}{0.922}              & 0.710                                \\ \hline
+\multicolumn{1}{|l|}{HSV + Median Filter}   & \multicolumn{1}{c|}{0.618}             & \multicolumn{1}{l|}{0.944}              & 0.643                                \\ \hline
+\multicolumn{1}{|l|}{HSV + Convex Hull}     & \multicolumn{1}{c|}{0.572}             & \multicolumn{1}{l|}{0.924}              & 0.603                                \\ \hline
+                                            & \multicolumn{1}{c|}{\textbf{Accuracy}} & \multicolumn{1}{c|}{\textbf{Precision}} & \multicolumn{1}{c|}{\textbf{Recall}} \\ \hline
+\multicolumn{1}{|l|}{Previous work}         & \multicolumn{1}{c|}{0.770}             & \multicolumn{1}{l|}{0.868}              & 0.863                                \\ \hline
+\end{tabular}
+\end{table}
