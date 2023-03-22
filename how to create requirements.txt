@@ -1,0 +1,6 @@
+pip install pipreqs
+pip install nbconvert
+
+jupyter nbconvert --output-dir="./reqs" --to script cell_lib.ipynb
+cd reqs
+pipreqs

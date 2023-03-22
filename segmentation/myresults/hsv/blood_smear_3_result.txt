@@ -1,0 +1,4 @@
+METHOD              	  CELLS	INTERNAL	EXTERNAL	TIME  	FILE_NAME
+OTSU                	     66	       0	       0	0.42s 	../segmentation/segmented/hsv/blood_smear_3_otsu.png
+OTSU w/out blur     	     65	       0	       0	0.45s 	../segmentation/segmented/hsv/blood_smear_3_otsu_out_blur.png
+HSV                 	     57	       0	       0	0.54s 	../segmentation/segmented/hsv/blood_smear_3_hsv.png

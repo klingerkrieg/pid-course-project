@@ -1,4 +1,0 @@
-100 - 
-200 - 1s 656ms/step - loss: 0.0826 - acc: 0.8269
-300 - 1s 633ms/step - loss: 0.0559 - acc: 0.8321
-400 - 1s 625ms/step - loss: 0.0476 - acc: 0.8335

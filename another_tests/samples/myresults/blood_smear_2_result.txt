@@ -1,0 +1,3 @@
+METHOD              	  CELLS	INTERNAL	EXTERNAL	TIME  	FILE_NAME
+HoughCircles        	     81	       4	       1	1.24s 	../samples/segmented/blood_smear_2_hough.png
+Hough Circles       	     81	       4	       1	1.23s 	../samples/segmented/_hough.png

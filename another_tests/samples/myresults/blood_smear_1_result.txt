@@ -1,0 +1,12 @@
+METHOD              	  CELLS	INTERNAL	EXTERNAL	TIME  	FILE_NAME
+HSV                 	     68	       0	       0	0.52s 	../samples/segmented/_hsv.png
+HSV convex hull     	     70	       0	       0	0.85s 	../samples/segmented/_hsv_hull.png
+OTSU                	     74	       0	       0	0.39s 	../samples/segmented/_otsu.png
+OTSU + Hough v2     	     77	       1	       4	1.62s 	../samples/segmented/_otsu_hough_v2.png
+OTSU + Hough v1     	    140	       4	       1	1.36s 	../samples/segmented/_otsu_hough_v1.png
+OTSU + Hough method 2 merge	    142	       0	       0	0.48s 	../samples/segmented/_otsu_hough_2_merge.png
+OTSU + Hough method 1 break	     77	       0	       0	0.54s 	../samples/segmented/_otsu_hough_1_break.png
+OTSU w/out blur     	     68	       0	       0	0.47s 	../samples/segmented/_otsu_out_blur.png
+Watershed           	     77	       0	       0	0.48s 	../samples/segmented/_waterhshed.png
+Hough Circles       	     80	       0	       0	0.09s 	../samples/segmented/_hough.png
+U-net               	     76	       0	       0	0.44s 	../samples/segmented/_unet.png

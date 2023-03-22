@@ -1,0 +1,10 @@
+METHOD              	  CELLS	INTERNAL	EXTERNAL	TIME  	FILE_NAME
+OTSU                	     89	       0	       0	0.50s 	../segmented/unet/blood_smear_16_otsu.png
+OTSU w/out blur     	     86	       0	       0	0.48s 	../segmented/unet/blood_smear_16_otsu_out_blur.png
+HSV                 	     83	       0	       0	0.52s 	../segmented/unet/blood_smear_16_hsv.png
+HSV convex hull     	     82	       0	       0	0.53s 	../segmented/unet/blood_smear_16_hsv_hull.png
+Watershed           	     93	       0	       0	0.61s 	../segmented/unet/blood_smear_16_waterhshed.png
+Hough Circles       	     94	       0	       0	0.17s 	../segmented/unet/blood_smear_16_hough.png
+OTSU + Hough method 1 break	    101	       0	       0	0.57s 	../segmented/unet/blood_smear_16_otsu_hough_1_break.png
+OTSU + Hough method 2 merge	    163	       0	       0	0.49s 	../segmented/unet/blood_smear_16_otsu_hough_2_merge.png
+U-net               	     98	       0	       0	0.55s 	../segmented/unet/blood_smear_16_unet.png

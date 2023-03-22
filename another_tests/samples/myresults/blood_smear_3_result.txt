@@ -1,0 +1,5 @@
+METHOD              	  CELLS	INTERNAL	EXTERNAL	TIME  	FILE_NAME
+OTSU                	     66	       2	       1	0.85s 	../samples/segmented/_otsu.png
+OTSU w/out blur     	     62	       0	       3	0.97s 	../samples/segmented/_otsu_out_blur.png
+Watershed           	     71	       1	       2	1.25s 	../samples/segmented/_waterhshed.png
+Union               	     96	       3	       0	0.94s 	../samples/segmented/blood_smear_3_union.png
