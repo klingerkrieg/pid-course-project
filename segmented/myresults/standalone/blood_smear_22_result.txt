@@ -1,10 +1,10 @@
 METHOD              	  CELLS	INTERNAL	EXTERNAL	TIME  	FILE_NAME
-OTSU                	     71	       0	       0	0.36s 	../segmented/standalone/blood_smear_22_otsu.png
-OTSU w/out blur     	     64	       0	       0	0.39s 	../segmented/standalone/blood_smear_22_otsu_out_blur.png
-HSV                 	     57	       0	       0	0.42s 	../segmented/standalone/blood_smear_22_hsv.png
-HSV convex hull     	     61	       0	       0	0.59s 	../segmented/standalone/blood_smear_22_hsv_hull.png
-Watershed           	     87	       0	       0	0.52s 	../segmented/standalone/blood_smear_22_waterhshed.png
-Hough Circles       	     88	       0	       0	0.11s 	../segmented/standalone/blood_smear_22_hough.png
-OTSU + Hough method 1 break	    117	       0	       0	0.52s 	../segmented/standalone/blood_smear_22_otsu_hough_1_break.png
-OTSU + Hough method 2 merge	    155	       0	       0	0.40s 	../segmented/standalone/blood_smear_22_otsu_hough_2_merge.png
-U-net               	     85	       0	       0	0.49s 	../segmented/standalone/blood_smear_22_unet.png
+OTSU                	     71	       0	       0	0.38s 	./segmented/standalone/blood_smear_22_otsu.png
+OTSU w/out blur     	     64	       0	       0	0.40s 	./segmented/standalone/blood_smear_22_otsu_out_blur.png
+HSV                 	     57	       0	       0	0.42s 	./segmented/standalone/blood_smear_22_hsv.png
+HSV convex hull     	     61	       0	       0	0.62s 	./segmented/standalone/blood_smear_22_hsv_hull.png
+Watershed           	     87	       0	       0	0.53s 	./segmented/standalone/blood_smear_22_waterhshed.png
+Hough Circles       	     88	       0	       0	0.10s 	./segmented/standalone/blood_smear_22_hough.png
+OTSU + Hough method 1 break	    117	       0	       0	0.54s 	./segmented/standalone/blood_smear_22_otsu_hough_1_break.png
+OTSU + Hough method 2 merge	    100	       0	       0	0.40s 	./segmented/standalone/blood_smear_22_otsu_hough_2_merge.png
+U-net               	    103	       0	       0	0.48s 	./segmented/standalone/blood_smear_22_unet.png

@@ -1,10 +1,10 @@
 METHOD              	  CELLS	INTERNAL	EXTERNAL	TIME  	FILE_NAME
-OTSU                	     77	       0	       0	0.47s 	../segmented/unet/blood_smear_15_otsu.png
-OTSU w/out blur     	     79	       0	       0	0.46s 	../segmented/unet/blood_smear_15_otsu_out_blur.png
-HSV                 	     76	       0	       0	0.54s 	../segmented/unet/blood_smear_15_hsv.png
-HSV convex hull     	     73	       0	       0	0.52s 	../segmented/unet/blood_smear_15_hsv_hull.png
-Watershed           	     97	       0	       0	0.60s 	../segmented/unet/blood_smear_15_waterhshed.png
-Hough Circles       	     99	       0	       0	0.17s 	../segmented/unet/blood_smear_15_hough.png
-OTSU + Hough method 1 break	    102	       0	       0	0.59s 	../segmented/unet/blood_smear_15_otsu_hough_1_break.png
-OTSU + Hough method 2 merge	    159	       0	       0	0.48s 	../segmented/unet/blood_smear_15_otsu_hough_2_merge.png
-U-net               	     90	       0	       0	0.54s 	../segmented/unet/blood_smear_15_unet.png
+OTSU                	     77	       0	       0	0.47s 	./segmented/unet/blood_smear_15_otsu.png
+OTSU w/out blur     	     79	       0	       0	0.48s 	./segmented/unet/blood_smear_15_otsu_out_blur.png
+HSV                 	     76	       0	       0	0.56s 	./segmented/unet/blood_smear_15_hsv.png
+HSV convex hull     	     73	       0	       0	0.51s 	./segmented/unet/blood_smear_15_hsv_hull.png
+Watershed           	     97	       0	       0	0.63s 	./segmented/unet/blood_smear_15_waterhshed.png
+Hough Circles       	     99	       0	       0	0.16s 	./segmented/unet/blood_smear_15_hough.png
+OTSU + Hough method 1 break	    102	       0	       0	0.64s 	./segmented/unet/blood_smear_15_otsu_hough_1_break.png
+OTSU + Hough method 2 merge	    104	       0	       0	0.50s 	./segmented/unet/blood_smear_15_otsu_hough_2_merge.png
+U-net               	     98	       0	       0	0.51s 	./segmented/unet/blood_smear_15_unet.png
