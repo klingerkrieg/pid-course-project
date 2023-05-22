@@ -1,3 +1,5 @@
+#sempre que for usar no notebook tem que dar o activate antes
+
 #cria
 conda env create -f unetenv.yml
 
@@ -13,9 +15,9 @@ jupyter kernelspec list
 #deleta do jupyter
 jupyter kernelspec remove unet-env
 
-#lista todos
+#lista todos os envs
 conda env list
 
-
-#remove
+#remove um env
 conda remove --name unet-env --all
+

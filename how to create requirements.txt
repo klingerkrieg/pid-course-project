@@ -1,6 +1,9 @@
 pip install pipreqs
 pip install nbconvert
 
+#converte o ipynb em py
 jupyter nbconvert --output-dir="./reqs" --to script cell_lib.ipynb
 cd reqs
+
+#junte todos os .py na pasta reqs
 pipreqs
