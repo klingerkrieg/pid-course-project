@@ -1,0 +1,21 @@
+#cria
+conda env create -f unetenv.yml
+
+#ativa
+conda activate unetenv
+
+#instala no jupyter
+python -m ipykernel install --user --name=unetenv
+
+#lista no jupyter
+jupyter kernelspec list
+
+#deleta do jupyter
+jupyter kernelspec remove unet-env
+
+#lista todos
+conda env list
+
+
+#remove
+conda remove --name unet-env --all
