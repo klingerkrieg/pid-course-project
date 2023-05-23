@@ -8,3 +8,5 @@ Hough Circles       	     88	       0	       0	0.11s 	./segmented/standalone/blo
 OTSU + Hough method 1 break	    125	       0	       0	0.57s 	./segmented/standalone/blood_smear_13_otsu_hough_1_break.png
 OTSU + Hough method 2 merge	     96	       0	       0	0.47s 	./segmented/standalone/blood_smear_13_otsu_hough_2_merge.png
 U-net               	     90	       0	       0	0.43s 	./segmented/standalone/blood_smear_13_unet.png
+YOLOv8              	     86	       0	       0	0.73s 	./segmented/standalone/blood_smear_13_yolov8.png
+RCNN                	    101	       0	       0	21.43s	./segmented/standalone/blood_smear_13_rcnn.png

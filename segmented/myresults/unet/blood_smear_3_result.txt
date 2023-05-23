@@ -1,5 +1,5 @@
 METHOD              	  CELLS	INTERNAL	EXTERNAL	TIME  	FILE_NAME
-OTSU                	     66	       0	       0	0.48s 	./segmented/unet/blood_smear_3_otsu.png
+OTSU                	     74	       2	       1	0.86s 	../segmented/unet/blood_smear_3_otsu.png
 OTSU w/out blur     	     62	       0	       0	0.55s 	./segmented/unet/blood_smear_3_otsu_out_blur.png
 HSV                 	     57	       0	       0	0.61s 	./segmented/unet/blood_smear_3_hsv.png
 HSV convex hull     	     56	       0	       0	2.20s 	./segmented/unet/blood_smear_3_hsv_hull.png
