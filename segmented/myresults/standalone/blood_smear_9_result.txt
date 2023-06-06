@@ -10,3 +10,4 @@ OTSU + Hough method 2 merge	     89	       0	       0	0.42s 	./segmented/standal
 U-net               	     92	       0	       9	1.72s 	../segmented/standalone/blood_smear_9_unet.png
 YOLOv8              	     72	       0	       0	0.45s 	./segmented/standalone/blood_smear_9_yolov8.png
 RCNN                	     89	       0	       0	20.44s	./segmented/standalone/blood_smear_9_rcnn.png
+YOLOv8-new          	     79	       0	       0	0.35s 	./segmented/standalone/blood_smear_9_yolov8-new.png
