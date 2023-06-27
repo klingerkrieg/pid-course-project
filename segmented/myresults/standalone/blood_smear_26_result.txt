@@ -1,13 +1,13 @@
 METHOD              	  CELLS	INTERNAL	EXTERNAL	TIME  	FILE_NAME
-OTSU                	     82	       0	       0	0.41s 	./segmented/standalone/blood_smear_26_otsu.png
-OTSU w/out blur     	     83	       0	       0	0.41s 	./segmented/standalone/blood_smear_26_otsu_out_blur.png
+OTSU                	     82	       0	       0	0.40s 	./segmented/standalone/blood_smear_26_otsu.png
+OTSU w/out blur     	     83	       0	       0	0.39s 	./segmented/standalone/blood_smear_26_otsu_out_blur.png
 HSV                 	     74	       0	       0	0.47s 	./segmented/standalone/blood_smear_26_hsv.png
-HSV convex hull     	     73	       0	       0	0.48s 	./segmented/standalone/blood_smear_26_hsv_hull.png
-Watershed           	    101	       0	       0	0.60s 	./segmented/standalone/blood_smear_26_waterhshed.png
+HSV convex hull     	     73	       0	       0	0.44s 	./segmented/standalone/blood_smear_26_hsv_hull.png
+Watershed           	     99	       0	       0	0.57s 	./segmented/standalone/blood_smear_26_waterhshed.png
 Hough Circles       	    110	       0	       0	0.10s 	./segmented/standalone/blood_smear_26_hough.png
 OTSU + Hough method 1 break	    117	       0	       0	0.54s 	./segmented/standalone/blood_smear_26_otsu_hough_1_break.png
-OTSU + Hough method 2 merge	    113	       0	       0	0.44s 	./segmented/standalone/blood_smear_26_otsu_hough_2_merge.png
-U-net               	     97	       0	       0	0.45s 	./segmented/standalone/blood_smear_26_unet.png
+OTSU + Hough method 2 merge	    113	       0	       0	0.40s 	./segmented/standalone/blood_smear_26_otsu_hough_2_merge.png
+U-net               	     96	       0	       0	0.42s 	./segmented/standalone/blood_smear_26_unet.png
 YOLOv8              	    106	       0	       0	0.61s 	./segmented/standalone/blood_smear_26_yolov8.png
 RCNN                	    105	       0	       0	44.51s	./segmented/standalone/blood_smear_26_rcnn.png
 YOLOv8-new          	    137	       0	       0	0.42s 	./segmented/standalone/blood_smear_26_yolov8-new.png

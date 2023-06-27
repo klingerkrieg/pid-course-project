@@ -1,13 +1,13 @@
 METHOD              	  CELLS	INTERNAL	EXTERNAL	TIME  	FILE_NAME
 OTSU                	     60	       0	       0	0.37s 	./segmented/standalone/blood_smear_27_otsu.png
-OTSU w/out blur     	     56	       0	       0	0.38s 	./segmented/standalone/blood_smear_27_otsu_out_blur.png
-HSV                 	     45	       0	       0	0.40s 	./segmented/standalone/blood_smear_27_hsv.png
-HSV convex hull     	     47	       0	       0	0.62s 	./segmented/standalone/blood_smear_27_hsv_hull.png
-Watershed           	     80	       0	       0	0.48s 	./segmented/standalone/blood_smear_27_waterhshed.png
-Hough Circles       	     48	       0	       0	0.10s 	./segmented/standalone/blood_smear_27_hough.png
-OTSU + Hough method 1 break	    115	       0	       0	0.51s 	./segmented/standalone/blood_smear_27_otsu_hough_1_break.png
-OTSU + Hough method 2 merge	     70	       0	       0	0.38s 	./segmented/standalone/blood_smear_27_otsu_hough_2_merge.png
-U-net               	     68	       0	       0	0.43s 	./segmented/standalone/blood_smear_27_unet.png
+OTSU w/out blur     	     56	       0	       0	0.37s 	./segmented/standalone/blood_smear_27_otsu_out_blur.png
+HSV                 	     45	       0	       0	0.38s 	./segmented/standalone/blood_smear_27_hsv.png
+HSV convex hull     	     47	       0	       0	0.64s 	./segmented/standalone/blood_smear_27_hsv_hull.png
+Watershed           	     74	       0	       0	0.49s 	./segmented/standalone/blood_smear_27_waterhshed.png
+Hough Circles       	     48	       0	       0	0.11s 	./segmented/standalone/blood_smear_27_hough.png
+OTSU + Hough method 1 break	    115	       0	       0	0.54s 	./segmented/standalone/blood_smear_27_otsu_hough_1_break.png
+OTSU + Hough method 2 merge	     70	       0	       0	0.37s 	./segmented/standalone/blood_smear_27_otsu_hough_2_merge.png
+U-net               	     63	       0	       0	0.39s 	./segmented/standalone/blood_smear_27_unet.png
 YOLOv8              	     39	       0	       0	0.58s 	./segmented/standalone/blood_smear_27_yolov8.png
 RCNN                	     85	       0	       0	42.56s	./segmented/standalone/blood_smear_27_rcnn.png
 YOLOv8-new          	     87	       0	       0	0.38s 	./segmented/standalone/blood_smear_27_yolov8-new.png
