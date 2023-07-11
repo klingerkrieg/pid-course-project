@@ -7,7 +7,10 @@ Watershed           	     93	       0	       0	0.53s 	./segmented/standalone/blo
 Hough Circles       	     94	       0	       0	0.12s 	./segmented/standalone/blood_smear_21_hough.png
 OTSU + Hough method 1 break	    118	       0	       0	0.56s 	./segmented/standalone/blood_smear_21_otsu_hough_1_break.png
 OTSU + Hough method 2 merge	    102	       0	       0	0.44s 	./segmented/standalone/blood_smear_21_otsu_hough_2_merge.png
-U-net               	    102	       0	       0	0.43s 	./segmented/standalone/blood_smear_21_unet.png
 YOLOv8              	     93	       0	       0	0.42s 	./segmented/standalone/blood_smear_21_yolov8.png
-RCNN                	    102	       0	       0	35.14s	./segmented/standalone/blood_smear_21_rcnn.png
+RCNN                	    102	       0	       0	26.35s	./segmented/standalone/blood_smear_21_rcnn.png
 YOLOv8-new          	    121	       0	       0	0.39s 	./segmented/standalone/blood_smear_21_yolov8-new.png
+U-net v1            	    100	       0	       0	0.51s 	./segmented/standalone/blood_smear_21_unetv1.png
+U-net v2            	     97	       0	       0	0.66s 	./segmented/standalone/blood_smear_21_unetv2.png
+U-net v3            	    100	       0	       0	0.46s 	./segmented/standalone/blood_smear_21_unetv3.png
+U-net v4            	     89	       0	       0	0.51s 	./segmented/standalone/blood_smear_21_unetv4.png
