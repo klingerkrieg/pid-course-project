@@ -11,6 +11,6 @@ YOLOv8              	     81	       0	       0	0.48s 	./segmented/standalone/blo
 RCNN                	     68	       0	       0	14.30s	./segmented/standalone/blood_smear_4_rcnn.png
 YOLOv8-new          	     86	       0	       0	0.39s 	./segmented/standalone/blood_smear_4_yolov8-new.png
 U-net v1            	     87	       0	       0	0.46s 	./segmented/standalone/blood_smear_4_unetv1.png
-U-net v2            	     84	       0	       0	0.66s 	./segmented/standalone/blood_smear_4_unetv2.png
-U-net v3            	     86	       0	       0	0.46s 	./segmented/standalone/blood_smear_4_unetv3.png
-U-net v4            	     86	       0	       0	0.51s 	./segmented/standalone/blood_smear_4_unetv4.png
+U-net v2            	     87	       0	       0	0.46s 	./segmented/standalone/blood_smear_4_unetv2.png
+U-net v3            	     86	       0	       0	0.50s 	./segmented/standalone/blood_smear_4_unetv3.png
+U-net v4            	     85	       0	       0	0.62s 	./segmented/standalone/blood_smear_4_unetv4.png
