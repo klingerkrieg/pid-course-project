@@ -4,5 +4,5 @@ allissondantas-cnn_training_tesis
 allissondantas-segmentation-of-blood-slides
 tmp*
 segmentation_methods/mrcnn/*.h5
-segmentation_methods/yolov8/best-yolov8-newdataset-v2-300-seg.pt
+segmentation_methods/yolov8/*.pt
 segmentation_methods/unet/*.h5

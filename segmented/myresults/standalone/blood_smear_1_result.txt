@@ -1,16 +1,20 @@
 METHOD              	  CELLS	INTERNAL	EXTERNAL	TIME  	FILE_NAME
-OTSU                	     74	       1	       3	1.02s 	../segmented/standalone/blood_smear_1_otsu.png
-OTSU w/out blur     	     68	       0	       0	0.45s 	./segmented/standalone/blood_smear_1_otsu_out_blur.png
+Yolo 256            	     79	       0	       0	0.26s 	./segmented/standalone/blood_smear_1_Yolo 256.png
+Yolo 384            	     89	       0	       0	0.24s 	./segmented/standalone/blood_smear_1_Yolo 384.png
+Yolo 416            	     91	       0	       0	0.24s 	./segmented/standalone/blood_smear_1_Yolo 416.png
+Yolo 512            	     91	       0	       0	0.41s 	./segmented/standalone/blood_smear_1_Yolo 512.png
+RCNN                	     75	       0	       0	13.28s	./segmented/standalone/blood_smear_1_rcnn.png
+OTSU                	     74	       0	       0	0.37s 	./segmented/standalone/blood_smear_1_otsu.png
+OTSU w/out blur     	     68	       0	       0	0.44s 	./segmented/standalone/blood_smear_1_otsu_out_blur.png
 HSV                 	     68	       0	       0	0.52s 	./segmented/standalone/blood_smear_1_hsv.png
-HSV convex hull     	     70	       0	       0	0.86s 	./segmented/standalone/blood_smear_1_hsv_hull.png
-Watershed           	     72	       0	       0	0.47s 	./segmented/standalone/blood_smear_1_waterhshed.png
-Hough Circles       	     80	       0	       0	0.08s 	./segmented/standalone/blood_smear_1_hough.png
-OTSU + Hough method 1 break	     77	       0	       0	0.57s 	./segmented/standalone/blood_smear_1_otsu_hough_1_break.png
+HSV convex hull     	     70	       0	       0	0.82s 	./segmented/standalone/blood_smear_1_hsv_hull.png
+Watershed           	     72	       0	       0	0.46s 	./segmented/standalone/blood_smear_1_waterhshed.png
+Hough Circles       	     80	       0	       0	0.09s 	./segmented/standalone/blood_smear_1_hough.png
+OTSU + Hough method 1 break	     77	       0	       0	0.55s 	./segmented/standalone/blood_smear_1_otsu_hough_1_break.png
 OTSU + Hough method 2 merge	     87	       0	       0	0.46s 	./segmented/standalone/blood_smear_1_otsu_hough_2_merge.png
-YOLOv8              	     72	       0	       0	0.45s 	./segmented/standalone/blood_smear_1_yolov8.png
-RCNN                	     75	       0	       0	12.77s	./segmented/standalone/blood_smear_1_rcnn.png
-YOLOv8-new          	     79	       0	       0	0.49s 	./segmented/standalone/blood_smear_1_yolov8-new.png
-U-net v1            	     80	       0	       0	0.53s 	./segmented/standalone/blood_smear_1_unetv1.png
-U-net v2            	     82	       0	       0	0.64s 	./segmented/standalone/blood_smear_1_unetv2.png
-U-net v3            	     77	       0	       0	0.43s 	./segmented/standalone/blood_smear_1_unetv3.png
-U-net v4            	     78	       0	       0	0.46s 	./segmented/standalone/blood_smear_1_unetv4.png
+U-net 256           	     80	       0	       0	0.41s 	./segmented/standalone/blood_smear_1U-net 256.png
+U-net 416           	     82	       0	       0	0.45s 	./segmented/standalone/blood_smear_1U-net 416.png
+U-net 256b          	     77	       0	       0	0.42s 	./segmented/standalone/blood_smear_1U-net 256b.png
+U-net 416b          	     78	       0	       0	0.59s 	./segmented/standalone/blood_smear_1U-net 416b.png
+U-net 384           	     81	       0	       0	0.42s 	./segmented/standalone/blood_smear_1U-net 384.png
+U-net 384b          	     77	       0	       0	0.45s 	./segmented/standalone/blood_smear_1U-net 384b.png
