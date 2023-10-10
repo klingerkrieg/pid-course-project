@@ -109,10 +109,12 @@ class RBCConfig(Config):
     # Input image resizing
     # Random crops of size 512x512
     IMAGE_RESIZE_MODE = "crop"
-    IMAGE_MIN_DIM = 1024
-    IMAGE_MAX_DIM = 1024
+    #IMAGE_MIN_DIM = 1024
+    #IMAGE_MAX_DIM = 1024
     #IMAGE_MIN_DIM = 256
     #IMAGE_MAX_DIM = 256
+    IMAGE_MAX_DIM = 128
+    IMAGE_MIN_DIM = 128
     IMAGE_MIN_SCALE = 2.0
 
     # Length of square anchor side in pixels
