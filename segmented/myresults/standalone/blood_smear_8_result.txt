@@ -5,7 +5,7 @@ Yolo 416            	    135	       0	       0	0.43s 	./segmented/standalone/blo
 Yolo 512            	    136	       0	       0	0.26s 	./segmented/standalone/blood_smear_8_Yolo 512.png
 RCNN                	    104	       0	       0	17.16s	./segmented/standalone/blood_smear_8_rcnn.png
 Hough Circles       	    100	       0	       0	0.08s 	./segmented/standalone/blood_smear_8_hough.png
-OTSU                	     71	       0	       0	0.34s 	./segmented/standalone/blood_smear_8_otsu.png
+OTSU                	     71	       1	       4	0.94s 	../segmented/standalone/_otsu/blood_smear_8.png
 OTSU w/out blur     	     74	       0	       0	0.36s 	./segmented/standalone/blood_smear_8_otsu_out_blur.png
 HSV                 	     66	       0	       0	0.38s 	./segmented/standalone/blood_smear_8_hsv.png
 HSV convex hull     	     66	       0	       0	0.43s 	./segmented/standalone/blood_smear_8_hsv_hull.png
