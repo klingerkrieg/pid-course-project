@@ -1,24 +1,3 @@
 METHOD              	  CELLS	INTERNAL	EXTERNAL	TIME  	FILE_NAME
-Yolo 256            	     60	       0	       3	1.20s 	../segmented/standalone/blood_smear_3_Yolo 256.png
-Yolo 384            	     62	       0	       0	0.24s 	./segmented/standalone/blood_smear_3_Yolo 384.png
-Yolo 416            	     65	       0	       0	0.28s 	./segmented/standalone/blood_smear_3_Yolo 416.png
-Yolo 512            	     66	       0	       0	0.50s 	./segmented/standalone/blood_smear_3_Yolo 512.png
-RCNN                	     15	       0	       0	12.48s	../segmented/standalone/blood_smear_3_rcnn.png
-OTSU                	     74	       0	       0	0.39s 	./segmented/standalone/blood_smear_3_otsu.png
-OTSU w/out blur     	     65	       0	       0	0.41s 	./segmented/standalone/blood_smear_3_otsu_out_blur.png
-HSV                 	     57	       0	       0	0.55s 	./segmented/standalone/blood_smear_3_hsv.png
-HSV convex hull     	     56	       0	       0	2.05s 	./segmented/standalone/blood_smear_3_hsv_hull.png
-Watershed           	     71	       0	       0	0.46s 	./segmented/standalone/blood_smear_3_waterhshed.png
-Hough Circles       	     62	       0	       0	0.13s 	./segmented/standalone/blood_smear_3_hough.png
-OTSU + Hough method 1 break	     92	       0	       0	0.56s 	./segmented/standalone/blood_smear_3_otsu_hough_1_break.png
-OTSU + Hough method 2 merge	     72	       0	       0	0.43s 	./segmented/standalone/blood_smear_3_otsu_hough_2_merge.png
-U-net 256           	     59	       0	       3	31.95s	../segmented/standalone/U-net 256blood_smear_3.png
-U-net 416           	     60	       0	       0	0.56s 	./segmented/standalone/blood_smear_3U-net 416.png
-U-net 256b          	     59	       0	       0	0.65s 	./segmented/standalone/blood_smear_3U-net 256b.png
-U-net 416b          	     61	       0	       0	0.49s 	./segmented/standalone/blood_smear_3U-net 416b.png
-U-net 384           	     59	       0	       0	0.44s 	./segmented/standalone/blood_smear_3U-net 384.png
-RCNN v1             	     78	       0	       0	16.93s	../segmented/standalone/RCNN v1/blood_smear_3.png
-RCNN v2             	    135	       0	       0	22.46s	../segmented/standalone/blood_smear_3RCNN v2.png
-U-net 256 new dataset	     60	       0	       3	9.94s 	../segmented/standalone/U-net 256 new dataset/blood_smear_3.png
-Yolo 512 new dataset	     67	       0	       0	27.88s	../segmented/standalone/_Yolo 512 new dataset/blood_smear_3.png
-RCNNv1 1024         	     56	       0	       0	14.77s	../segmented/standalone/RCNNv1 1024/blood_smear_3.png
+RCNNv5n 512         	    111	       0	       0	22.65s	../segmented/standalone/RCNNv5n 512/blood_smear_3.png
+Yolo 512 new dataset	     67	       0	       0	28.64s	../segmented/standalone/Yolo 512 new dataset/blood_smear_3.png

@@ -1,12 +1,11 @@
 METHOD              	  CELLS	INTERNAL	EXTERNAL	TIME  	FILE_NAME
-OTSU                	     64	       0	       0	0.39s 	./segmented/standalone/OTSU/edea6ca9-3d52-4b4f-bec3-93799b1c26e3.png
-OTSU w/out blur     	     58	       0	       0	0.55s 	./segmented/standalone/OTSU w-out blur/edea6ca9-3d52-4b4f-bec3-93799b1c26e3.png
-HSV                 	      0	       0	       0	0.24s 	./segmented/standalone/_hsv/edea6ca9-3d52-4b4f-bec3-93799b1c26e3.png
-HSV convex hull     	      0	       0	       0	0.22s 	./segmented/standalone/_hsv_hull/edea6ca9-3d52-4b4f-bec3-93799b1c26e3.png
-Watershed           	     46	       0	       0	0.35s 	./segmented/standalone/Watershed/edea6ca9-3d52-4b4f-bec3-93799b1c26e3.png
+OTSU                	     64	       0	       0	0.37s 	./segmented/standalone/OTSU/edea6ca9-3d52-4b4f-bec3-93799b1c26e3.png
+OTSU w/out blur     	     58	       0	       0	0.56s 	./segmented/standalone/OTSU w-out blur/edea6ca9-3d52-4b4f-bec3-93799b1c26e3.png
+Watershed           	     46	       0	       0	0.36s 	./segmented/standalone/Watershed/edea6ca9-3d52-4b4f-bec3-93799b1c26e3.png
 Hough Circles       	     43	       0	       0	0.01s 	./segmented/standalone/Hough Circles/edea6ca9-3d52-4b4f-bec3-93799b1c26e3.png
-OTSU + Hough method 1 break	     86	       0	       0	0.60s 	./segmented/standalone/OTSU and Hough method 1 break/edea6ca9-3d52-4b4f-bec3-93799b1c26e3.png
-OTSU + Hough method 2 merge	     62	       0	       0	0.51s 	./segmented/standalone/OTSU and Hough method 2 merge/edea6ca9-3d52-4b4f-bec3-93799b1c26e3.png
-U-net 256 new dataset	     44	       0	       0	0.29s 	./segmented/standalone/U-net 256 new dataset/edea6ca9-3d52-4b4f-bec3-93799b1c26e3.png
-Yolo 512 new dataset	     57	       0	       0	0.23s 	./segmented/standalone/Yolo 512 new dataset/edea6ca9-3d52-4b4f-bec3-93799b1c26e3.png
-RCNNv4 1024         	     60	       0	       0	12.82s	./segmented/standalone/RCNNv4 1024/edea6ca9-3d52-4b4f-bec3-93799b1c26e3.png
+OTSU + Hough method 1 break	     86	       0	       0	0.62s 	./segmented/standalone/OTSU and Hough method 1 break/edea6ca9-3d52-4b4f-bec3-93799b1c26e3.png
+OTSU + Hough method 2 merge	     62	       0	       0	0.55s 	./segmented/standalone/OTSU and Hough method 2 merge/edea6ca9-3d52-4b4f-bec3-93799b1c26e3.png
+U-net 256 new dataset	     44	       0	       0	0.31s 	./segmented/standalone/U-net 256 new dataset/edea6ca9-3d52-4b4f-bec3-93799b1c26e3.png
+Yolo 512 new dataset	     57	       0	       0	0.17s 	./segmented/standalone/Yolo 512 new dataset/edea6ca9-3d52-4b4f-bec3-93799b1c26e3.png
+RCNNv4 1024         	     60	       0	       0	91.91s	./segmented/standalone/RCNNv4 1024/edea6ca9-3d52-4b4f-bec3-93799b1c26e3.png
+RCNNv5n 512         	     65	       0	       0	100.30s	./segmented/standalone/RCNNv5n 512/edea6ca9-3d52-4b4f-bec3-93799b1c26e3.png

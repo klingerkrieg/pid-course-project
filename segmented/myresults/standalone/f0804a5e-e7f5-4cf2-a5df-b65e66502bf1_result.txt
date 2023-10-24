@@ -1,0 +1,11 @@
+METHOD              	  CELLS	INTERNAL	EXTERNAL	TIME  	FILE_NAME
+OTSU                	     62	       0	       0	0.37s 	./segmented/standalone/OTSU/f0804a5e-e7f5-4cf2-a5df-b65e66502bf1.png
+OTSU w/out blur     	     66	       0	       0	0.46s 	./segmented/standalone/OTSU w-out blur/f0804a5e-e7f5-4cf2-a5df-b65e66502bf1.png
+Watershed           	     66	       0	       0	0.40s 	./segmented/standalone/Watershed/f0804a5e-e7f5-4cf2-a5df-b65e66502bf1.png
+Hough Circles       	     63	       0	       0	0.02s 	./segmented/standalone/Hough Circles/f0804a5e-e7f5-4cf2-a5df-b65e66502bf1.png
+OTSU + Hough method 1 break	     81	       0	       0	0.53s 	./segmented/standalone/OTSU and Hough method 1 break/f0804a5e-e7f5-4cf2-a5df-b65e66502bf1.png
+OTSU + Hough method 2 merge	     74	       0	       0	0.46s 	./segmented/standalone/OTSU and Hough method 2 merge/f0804a5e-e7f5-4cf2-a5df-b65e66502bf1.png
+U-net 256 new dataset	     61	       0	       0	0.33s 	./segmented/standalone/U-net 256 new dataset/f0804a5e-e7f5-4cf2-a5df-b65e66502bf1.png
+Yolo 512 new dataset	     82	       0	       0	0.16s 	./segmented/standalone/Yolo 512 new dataset/f0804a5e-e7f5-4cf2-a5df-b65e66502bf1.png
+RCNNv4 1024         	     87	       0	       0	112.92s	./segmented/standalone/RCNNv4 1024/f0804a5e-e7f5-4cf2-a5df-b65e66502bf1.png
+RCNNv5n 512         	     91	       0	       0	117.57s	./segmented/standalone/RCNNv5n 512/f0804a5e-e7f5-4cf2-a5df-b65e66502bf1.png
