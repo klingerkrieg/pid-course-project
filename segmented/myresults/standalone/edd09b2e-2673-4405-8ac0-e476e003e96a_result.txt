@@ -1,11 +1,13 @@
 METHOD              	  CELLS	INTERNAL	EXTERNAL	TIME  	FILE_NAME
-OTSU                	     61	       0	       0	0.30s 	./segmented/standalone/OTSU/edd09b2e-2673-4405-8ac0-e476e003e96a.png
-OTSU w/out blur     	     64	       0	       0	0.31s 	./segmented/standalone/OTSU w-out blur/edd09b2e-2673-4405-8ac0-e476e003e96a.png
+OTSU                	     53	       0	       0	0.27s 	./segmented/standalone/OTSU/edd09b2e-2673-4405-8ac0-e476e003e96a.png
+OTSU w/out blur     	     54	       0	       0	0.28s 	./segmented/standalone/OTSU w-out blur/edd09b2e-2673-4405-8ac0-e476e003e96a.png
 Watershed           	     62	       0	       0	0.39s 	./segmented/standalone/Watershed/edd09b2e-2673-4405-8ac0-e476e003e96a.png
 Hough Circles       	     64	       0	       0	0.02s 	./segmented/standalone/Hough Circles/edd09b2e-2673-4405-8ac0-e476e003e96a.png
-OTSU + Hough method 1 break	     74	       0	       0	0.41s 	./segmented/standalone/OTSU and Hough method 1 break/edd09b2e-2673-4405-8ac0-e476e003e96a.png
-OTSU + Hough method 2 merge	     73	       0	       0	0.31s 	./segmented/standalone/OTSU and Hough method 2 merge/edd09b2e-2673-4405-8ac0-e476e003e96a.png
+OTSU + Hough method 1 break	     67	       0	       0	0.38s 	./segmented/standalone/OTSU and Hough method 1 break/edd09b2e-2673-4405-8ac0-e476e003e96a.png
+OTSU + Hough method 2 merge	     66	       0	       0	0.26s 	./segmented/standalone/OTSU and Hough method 2 merge/edd09b2e-2673-4405-8ac0-e476e003e96a.png
 U-net 256 new dataset	     59	       0	       0	0.31s 	./segmented/standalone/U-net 256 new dataset/edd09b2e-2673-4405-8ac0-e476e003e96a.png
 Yolo 512 new dataset	     63	       0	       0	0.21s 	./segmented/standalone/Yolo 512 new dataset/edd09b2e-2673-4405-8ac0-e476e003e96a.png
 RCNNv4 1024         	     77	       0	       0	86.10s	./segmented/standalone/RCNNv4 1024/edd09b2e-2673-4405-8ac0-e476e003e96a.png
 RCNNv5n 512         	     82	       0	       0	96.62s	./segmented/standalone/RCNNv5n 512/edd09b2e-2673-4405-8ac0-e476e003e96a.png
+Yolo 416 new dataset	     69	       0	       0	0.06s 	./segmented/standalone/Yolo 416 new dataset/edd09b2e-2673-4405-8ac0-e476e003e96a.png
+RCNNv6n 256         	    101	       0	       0	114.62s	./segmented/standalone/RCNNv6n 256/edd09b2e-2673-4405-8ac0-e476e003e96a.png

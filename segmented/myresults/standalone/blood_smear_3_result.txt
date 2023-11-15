@@ -1,3 +1,7 @@
 METHOD              	  CELLS	INTERNAL	EXTERNAL	TIME  	FILE_NAME
-RCNNv5n 512         	    111	       0	       0	22.65s	../segmented/standalone/RCNNv5n 512/blood_smear_3.png
-Yolo 512 new dataset	     67	       0	       0	28.64s	../segmented/standalone/Yolo 512 new dataset/blood_smear_3.png
+RCNNv5n 512         	    111	       0	       0	30.00s	../segmented/standalone/RCNNv5n 512/blood_smear_3.png
+Yolo 512 new dataset	     67	       0	       0	0.50s 	../segmented/standalone/Yolo 512 new dataset/blood_smear_3.png
+RCNNv4n 1024        	     78	       0	       0	12.57s	../segmented/standalone/RCNNv4n 1024/blood_smear_3.png
+U-net 256 new dataset	     60	       0	       0	0.46s 	../segmented/standalone/U-net 256 new dataset/blood_smear_3.png
+OTSU                	     71	       0	       0	0.44s 	../segmented/standalone/OTSU/blood_smear_3.png
+OTSU w/out blur     	     76	       0	       0	2.64s 	../segmented/standalone/OTSU w-out blur/blood_smear_3.png

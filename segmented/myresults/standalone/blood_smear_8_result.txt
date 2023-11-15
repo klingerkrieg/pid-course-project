@@ -1,0 +1,5 @@
+METHOD              	  CELLS	INTERNAL	EXTERNAL	TIME  	FILE_NAME
+RCNNv4n 1024        	    128	       0	       0	22.76s	../segmented/standalone/RCNNv4n 1024/blood_smear_8.png
+U-net 256 new dataset	     97	       0	       0	0.53s 	../segmented/standalone/U-net 256 new dataset/blood_smear_8.png
+Yolo 512 new dataset	    145	       0	       0	0.71s 	../segmented/standalone/Yolo 512 new dataset/blood_smear_8.png
+OTSU                	     74	       0	       0	0.39s 	../segmented/standalone/OTSU/blood_smear_8.png
